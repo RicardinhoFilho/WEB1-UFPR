@@ -1,0 +1,289 @@
+:root{
+    --dark-orange:  #a14512;
+    --link-color: wheat;
+    --light-grey: rgb(189, 184, 184);
+
+    --link-opacity:0.8;
+    --link-opacity-hover:1;
+}
+
+/*global--------------------------------------------------------*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+body{
+    background-image: url(./images/telaLogin.jpg);
+    background-attachment: fixed;
+}
+
+a{
+    color: var(--link-color);
+    opacity: var(--link-opacity);
+}
+
+a:hover{
+    opacity: var(--link-opacity-hover);
+}
+
+
+
+/*header----------------------------------------------*/
+
+header
+{  
+    width: max(98vw,1500px);
+    margin: auto;
+    margin-top:1%;
+    margin-bottom: 1%;
+    height: 130px;
+    background-color: var(--dark-orange);   
+    border-radius: 0.50rem;
+    position: relative;
+}
+
+header h1{
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: capitalize;
+    
+}
+
+header ul{
+    
+    background-color: var(--dark-orange);
+   /* display: flex;*/
+   display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+    margin-top: 1rem;
+    margin-left: 30rem;
+    
+}
+
+header a
+{
+    text-align: center;
+    
+    color: var(--link-color);
+    font-size: 30px;
+    font-weight: bolder;
+
+    margin-left: 20%;
+    padding: 0.2rem;
+    padding-bottom: 1rem;
+
+    opacity: var(--link-opacity);
+}
+
+header a:hover{
+
+    opacity: var(--link-opacity-hover);
+}
+
+
+/*main----------------------------------------------------------------------------------------*/
+
+main{
+    
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    min-width: 90rem;
+
+    position: relative;
+    
+    margin: 8%;
+
+    
+}
+
+#fisic
+{
+    
+    background-color: var(--light-grey);
+    font-size: 20px;
+    text-align: center;
+
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin-right: 30%;
+    
+  
+
+    border-radius: 0.25rem;
+}
+
+#remote{
+
+    font-size: 20px;
+    text-align: center;
+
+    background-color: var(--light-grey);
+    border-radius: 0.25rem;
+    
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 12px;
+
+}
+
+#remote a{
+
+    font-size: 20px;
+    color: var(--dark-orange);
+}
+
+/*top-books------------------------------------------------------------------------*/
+
+#popular{
+    
+    
+
+    margin-left: -12rem;
+    
+}
+
+#classic{
+    
+    
+    margin-left: -12rem;
+}
+
+#history{
+    
+    margin-left: -12rem;
+}
+#books{
+
+    
+    
+    
+    /*background-color: #f0f2f5;*/
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+
+
+    border-radius: 0.50rem;
+
+    
+}
+
+#books h2{
+
+    text-align: center;
+    font-weight: 100;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+#books h3{
+
+    margin-left: 30px;
+    margin-top: 20px;
+
+    font-weight: 200;
+    font-size: 20px;
+
+}
+
+#books .livros{
+    
+    width: 200px;
+    height: 200px;
+
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    
+    margin-right: -4.2rem;
+    margin-left: 2rem;
+
+    padding: 2rem;
+
+    
+}
+
+
+
+#container{
+    min-width: 1100px;
+    background-color: var(--light-grey);
+    
+    position: relative;
+    margin: 25%;
+    margin-top: 0;
+    margin-bottom: 5rem;
+    border-radius: 0.50rem;
+
+}
+
+/*footer---------------------------------------------------------*/
+
+
+footer{
+    background-color: var(--dark-orange);
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    text-align: center;
+
+}
+
+footer a{
+    font-size: 20px;
+    margin-top: 6rem;
+}
+
+footer ul{
+    margin: 2rem;
+}
+
+footer input[type="search"]{
+    
+    background-color:transparent;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-bottom: 1rem black;
+    border-radius: 0.50rem;
+    
+    width: 17rem;
+    height: 2rem;
+    border-bottom: 1px solid white ;
+    margin-top: 6rem;
+    margin-left: 15rem;
+}
+
+footer input[type = "submit"]{
+
+   border: none;
+    border-radius: 0.5rem;
+
+    width: 8rem;
+    height: 2rem;
+    margin-top: 6rem;
+    
+    background-color: var(--link-color);
+    opacity: 0.4;
+}
+
+footer input[type = "submit"]:hover{
+
+    opacity: 1;
+}

@@ -1,0 +1,22 @@
+body{
+    
+}
+
+.container{
+background-color: #add8e6;
+
+    width: 800px;
+    height: 500px;
+
+    margin: 12.5% auto 12.5% auto;
+
+    text-align: center;
+}
+
+h2{
+    margin-top: 2em;
+}
+
+ul{
+    text-align: left;
+}
