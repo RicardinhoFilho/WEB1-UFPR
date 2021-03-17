@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ComparativoEntreProdutos</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1 style="text-align: center;">Comparativo Entre Produtos</h1>
+  <h2 style="text-align: center;">MotoG G8</h2>
+  <p style="text-align: center;"><img src="images/motog.jpg" alt="Smatphone Moto G G8" style="width: 30%;"></p>
+  <ul style="text-align: center;">
+    <h3 >Descrição do Produto</h3>
+    <li>Smartphone Motorola Moto G G8 Plus XT2019-2 Vermelho 64GB Android</li>
+  </ul>
+  <h2 style="text-align: center;">Iphone Xr 128GB </h2>
+  <p style="text-align: center;"><img src="images/iphone.jpg" alt="Iphone Xr 128GB " style="width: 30%;"></p>
+  <ul style="text-align: center;">
+    <h3 >Descrição do Produto</h3>
+    <li>Iphone Xr 128GB Preto 12 4G iOS</li>
+  </ul>
+  <table style="width:100%" border="1px">
+    <thead>
+      <th>Campos</th>
+      <th>Moto G G8</th>
+      <th>Iphone 12</th>
+    </thead>
+    <tbody>
+      <tr> 
+        <td>Sistema Operacional</td>
+        <td>Android</td>
+        <td>iOS</td>
+      </tr>
+
+      <tr> 
+        <td>Memória</td>
+        <td>64GB</td>
+        <td>128GB</td>
+      </tr>
+      <tr>
+        <td>Fabricante</td>
+        <td>FLEXTRONICS INTERNATIONAL TECNOLOGIA LTDA</td>
+        <td>Apple Computer Brasil</td>
+      </tr>
+      <tr>
+        <td>Conexões</td>
+        <td>Wi-Fi,3G,4G</td>
+        <td>Wi-Fi,3G,4G</td>
+      </tr>
+      <tr>
+        <td>Fabricante</td>
+        <td>FLEXTRONICS INTERNATIONAL TECNOLOGIA LTDA</td>
+        <td>Apple Computer Brasil</td>
+      </tr>
+      <tr>
+        <td>Multichip</td>
+        <td>Dual Chip</td>
+        <td>Dual Chip</td>
+      </tr>
+      <tr>
+        <td>Cor</td>
+        <td>Vermelho</td>
+        <td>Preto</td>
+      </tr>
+      <tr>
+        <td>Preço</td>
+        <td>R$2.115,08</td>
+        <td>R$ 3.898,99</td>
+      </tr>
+    </tbody>
+  </table>
+    <br><br>
+  
+ 
+  <div class="formulario" style="font-size: 20px;">
+    <label for="model">Escolha o Celular:<br></label>  
+    <input type="radio" id="motog" name="produto" value="motog">
+    <label for="motog">MotoG G8</label><br>
+    <input type="radio" id="iphone" name="produto" value="iphone">
+    <label for="iphone">Iphone</label><br>
+  
+    <label for="phone">Digite Seu Número de Telefone:</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="55 54 9 9924 8354" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+    <small>Format: 55 54 9 9924 8354</small><br>
+
+    <label for="number">Número do Cartão:</label><br>
+    <input type="number" id="number" name="number" placeholder="4175 0155 1404 0343" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+    <small>Format: 4175 0155 1404 0343</small><br>
+
+    <label for="code">Número do Cartão:</label><br>
+    <input type="code" id="code" name="code" placeholder="262" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+    <small>Format: 262</small><br>
+
+  <label for="date">Data de Validade:</label>
+  <input type="date" id="date" name="date"><br>
+  
+  <input type="submit" value="Comprar">
+</div>
+  
+</body>
+</html>
